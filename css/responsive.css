@@ -1,0 +1,72 @@
+/* MediaQuery */
+
+@media only screen and (max-width:950px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .logo img {
+        width: 40%;
+        border-radius: 50px;
+        margin-bottom: 12px;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 16px 0;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 335px;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        margin-inline-start: 13px;
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+        align-items: center;
+    }
+    .secondHalf img {
+        width: 40%;
+        border: 4px solid white;
+        border-radius: 100px;
+        display: block;
+        margin: auto;
+    }
+    .btn-sm{
+        margin-inline-start: 22px;
+        align-items: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 50px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px 1px;
+    }
+    .contact{
+        height: 90vh;
+    }
+}
